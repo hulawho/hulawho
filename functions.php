@@ -2,50 +2,44 @@
 
 function gameday($current){
 	$gameday = 2;
-	if ($current<(1402621200-21600)){
+	if ($current<(1465585200)){
 		$gameday = 1;
 	}
-	elseif ((1402621200-21600)<$current && $current<(1402714800-21600)){
+	elseif ((1465585200)<$current && $current<(1465671600)){
 		$gameday = 2;
 	}
-	elseif ((1402714800-21600)<$current && $current<(1402812000-21600)){
+	elseif ((1465671600)<$current && $current<(1465758000)){
 		$gameday = 3;
 	}
-	elseif ((1402812000-21600)<$current && $current<(1402887600-21600)){
+	elseif ((1465758000)<$current && $current<(1465844400)){
 		$gameday = 4;
 	}
-	elseif ((1402887600-21600)<$current && $current<(1402974000-21600)){
+	elseif ((1465844400)<$current && $current<(1465930800)){
 		$gameday = 5;
 	}
-	elseif ((1402974000-21600)<$current && $current<(1403060400-21600)){
+	elseif ((1465930800)<$current && $current<(1466017200)){
 		$gameday = 6;
 	}
-	elseif ((1403060400-21600)<$current && $current<(1403146800-21600)){
+	elseif ((1466017200)<$current && $current<(1466103600)){
 		$gameday = 7;
 	}
-	elseif ((1403146800-21600)<$current && $current<(1403233200-21600)){
+	elseif ((1466103600)<$current && $current<(1466190000)){
 		$gameday = 8;
 	}
-	elseif ((1403233200-21600)<$current && $current<(1403319600-21600)){
+	elseif ((1466190000)<$current && $current<(1466276400)){
 		$gameday = 9;
 	}
-	elseif ((1403319600-21600)<$current && $current<(1403406000-21600)){
+	elseif ((1466276400)<$current && $current<(1466362800)){
 		$gameday = 10;
 	}
-	elseif ((1403406000-21600)<$current && $current<(1403492400-21600)){
+	elseif ((1466362800)<$current && $current<(1466449200)){
 		$gameday = 11;
 	}
-	elseif ((1403492400-21600)<$current && $current<(1403571600-21600)){
+	elseif ((1466449200)<$current && $current<(1466535600)){
 		$gameday = 12;
 	}
-	elseif ((1403571600-21600)<$current && $current<(1403658000-21600)){
+	elseif ((1466535600)<$current && $current<(1466622000)){
 		$gameday = 13;
-	}
-	elseif ((1403658000-21600)<$current && $current<(1403744400-21600)){
-		$gameday = 14;
-	}
-	elseif ((1403744400-21600)<$current && $current<(1403830800-21600)){
-		$gameday = 15;
 	}
 	return $gameday;
 }
